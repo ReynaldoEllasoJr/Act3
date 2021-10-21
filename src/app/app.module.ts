@@ -6,7 +6,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HomeComponent } from './pages/home/home.component';
-import { ContactComponent } from './pages/contact/contact.component';
+import { ContactsComponent } from './pages/contact/contacts.component';
 import { GalleryComponent } from './pages/gallery/gallery.component';
 
 // material modules
@@ -23,7 +23,7 @@ import { MatChipsModule } from '@angular/material/chips';
   declarations: [
     AppComponent,
     HomeComponent,
-    ContactComponent,
+    ContactsComponent,
     GalleryComponent,
   ],
   imports: [
